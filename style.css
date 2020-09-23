@@ -1,0 +1,64 @@
+body{
+  background-color: #ecf0f1;
+  color: #c2a2ad;
+  font-family: Helvetica, Arial, Apple SD Gothic Neo, fantasy;
+  text-align: center;
+  margin: 0 auto;
+}
+
+form > input{
+  margin: 5px 0px;
+}
+
+.reset{
+  background-color: #e7e7e7;
+  border: 2px solid #c2a2ad;
+  color: #c2a2ad;
+  padding: 5px 20px;
+  border-radius: 6px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.reset:hover {
+  background-color: #c2a2ad;
+  color: #e7e7e7;
+}
+
+.clock{
+  font-size: 50px;
+}
+
+.form{
+  display: none;
+} 
+
+.greetings{
+  display: none;
+  font-size: 35px;
+  color: beige;
+}
+
+.showing{
+  display: block;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.bgImage{
+  animation: fadeIn 0.5s linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
